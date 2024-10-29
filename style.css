@@ -1,0 +1,303 @@
+#a{
+    background-color: rgb(80, 0, 44);
+    color:#fff;
+    height:30px;
+    width:99.5%;
+    border-radius:3px;
+    padding-left: 20px;
+    margin-left:-7px;
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height:100%;
+    width: 100%;
+}
+#b{
+    color:black;
+    margin-top:4px;
+    font-size:14px;
+}
+#c{
+    margin-left:400px;
+    color:black;
+    font-size:14px;
+}
+#d{
+    margin-left:300px;
+    color:black;
+    font-size:14px;
+    }
+    #e{
+        margin-top:5px;
+        height:20px;
+        width:460px;
+    }
+    #f{
+        margin-top:5px;
+        height:20px;
+        width:160px;
+        margin-left:20px;
+        }
+        #g{
+            margin-top:5px;
+            height:20px;
+            width:250px;
+            margin-left:5px;
+            }
+            #h{
+                margin-left:10px;
+            }
+            #i{
+                margin-left:10px;
+                height:20px;
+                width:470px;
+                margin-left:10px;
+            }
+            #j{
+                color:black;
+                 margin-top:-10px;
+               font-size:14px;
+            }
+            #date{
+                margin-top:-40px;
+                height: 25px;
+                width:463px;
+            }
+            #k{
+                background-color: rgb(80, 0, 44);
+                color:#fff;
+                height:30px;
+                width:98.66%;
+                border-radius:3px;
+                padding-left: 20px;
+                margin-left:-7px;
+                margin-top:20px;
+                padding-top: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #l{
+                color:black;
+                padding-top:20px;
+            }
+            button{
+                background-color: rgb(80, 0, 44);
+                color:#fff;
+                height:30px;
+                width:80px;
+                border-radius:3px;
+                margin-left:1300px;
+                margin-top:20px;
+                padding-top: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:700px; */
+                display: inline-block;
+                }
+                #n{
+                    align-items:rigth;
+                    margin-left:-200px;
+                }
+                #m{
+                    background-color: rgb(80, 0, 44);
+                    color:#fff;
+                    height:30px;
+                    width:98.66%;
+                    border-radius:3px;
+                    padding-left: 20px;
+                    margin-left:-19px;
+                    margin-top:20px;
+                    padding-top: 10px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                #o{
+                    color:black;
+                    padding-top:2px;
+                    padding-left: 0px;
+                    }
+                    #p{
+                        padding-left: 400px;
+                    }
+                    #q{
+                        padding-left: 300px;
+                        }
+                        #r{
+                            padding-left:7px;
+                        }
+                        #s{
+                            margin-left:10px;
+                            height:30px;
+                            width:550px;
+                            margin-left:-10px;
+                        }
+                        #t{
+                            
+                            margin-left:10px;
+                            height:27px;
+                            width:390px;
+                            margin-left:10px;
+                        }
+                        #rate{
+                            margin-left:10px;
+                            height:25px;
+                            width:200px;
+                            margin-left:10px;
+                        }
+                        #unit{
+                        margin-left:10px;
+                        height:30px;
+                        width:260px;
+                        margin-left:10px;
+                        }
+                        #u{
+                            margin-left:10px;
+                            color:black;
+                            margin-left:1px;
+                            margin-top:8px;
+                        }
+                        #v{
+                            margin-left:456px;
+                           color:black;
+                        }
+                        #w{
+                            margin-left:148px;
+                            color:black;
+                        }
+                        #reb{
+                            margin-left:-10px;
+                            height:27px;
+                            width:390px;
+                           
+                        }
+                        #per{
+                            height:27px;
+                            width:130px;
+                            margin-left:10px;
+                        }
+                        #x{
+                            height:27px;
+                            width:190px;
+                            margin-left:10px;
+                        }#y{
+                            height:27px;
+                            width:184px;
+                            margin-left:10px;
+                        }
+                        #z{
+                            height:26px;
+                            width:470px;
+                            margin-left:10px;
+                        }
+                        #aa{
+                            margin-top: 10px;
+                            color:black;
+                            
+                        }
+                        #bb{
+                            margin-left: 420px;
+
+                            color:black;
+                        }
+                        #cc{
+                            margin-left:209px;
+                            color:black;
+                        }
+                        #lease-status{
+                            height:30px;
+                            width:550px;
+                            margin-left:-10px;
+                        }
+                        #xx{
+                            margin-left: 10px;
+                            color:black;
+                            height:27px;
+                            width:390px;
+                        }
+                        #lease{
+                            margin-left: 10px;
+                            color:black;
+                            height:29px;
+                            width:483px;
+                        }
+                       #naaz{
+                     
+                            background-color: rgb(80, 0, 44);
+                            color:#fff;
+                            height:30px;
+                            width:98.66%;
+                            border-radius:3px;
+                            padding-left:10px;
+                            margin-left:-6px;
+                            margin-top:480px;
+                            padding-top: 10px;
+                            font-family: Arial, Helvetica, sans-serif;
+                       }
+                       #bano{
+                        color:black;
+                        margin-left:10px;
+                        
+                       }
+                       #dd{
+                        margin-left:500px;
+                       }#ee{
+                        margin-left:250px;
+                       }
+                       #actual-area{
+                            margin-left:20px;
+                            color:black;
+                            height:29px;
+                            width:270px;
+                       }
+                       #area-sqm{
+                       
+                        color:black;
+                        height:29px;
+                        width:270px;
+                       }
+                       #man{
+                        height:29px;
+                        width:380px;
+                       }
+                       #tan{
+                        height:29px;
+                        width:470px;
+                       }
+                       #aj{
+                      
+                            margin-left:20px;
+                            color:black;
+                           margin-left: 10px;
+                           margin-top:10px;
+                       
+                       }
+                       #ajj{
+                      
+                            margin-left:20px;
+                            color:black;
+                            margin-left: 450px;   
+                       
+                       }
+                       #ajju{
+                          
+                            color:black;
+                            margin-left:170px;
+                           
+                       }
+                       #cons{
+                        margin:10px;
+                            color:black;
+                            height:31px;
+                            width:560px;
+                       }
+                       #lo{
+                        height:28px;
+                        width:180px;
+                        margin-left:-10px;
+                       }
+                       #lp{
+                        height:28px;
+                        width:194px;
+                       }
+                       #har{
+                        height:31px;
+                        width:480px;
+                       }

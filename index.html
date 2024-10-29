@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="a"><b>Plot Details</b></div>
+    <div id="b">Industrial Area*<span id="c">Plot Number (Prefix-Number)*</span><span id="d">Land use*</span></div>
+    <div>
+        <input list="areas" id="e" placeholder="Ramchandrapura">
+        <datalist id="areas">
+            <option value="Industrial Area*">
+            <option value="Commercial Area">
+            <option value="Residential Area">
+            <option value="Agricultural Area">
+            <option value="Recreational Area">
+        </datalist>
+        <input  type="text" id="f" placeholder="js-">
+        <input type="text" id="g" placeholder="2001(A)">
+        <i class="fas fa-envelope"id="h"></i>
+        <input list="land" id="i" placeholder="- Select Land Use -" required>
+        <datalist id="land">
+            <option value="Residential"></option>
+            <option value="Commercial"></option>
+            <option value="Agricultural"></option>
+            <option value="Industrial"></option>
+            <option value="Recreational"></option>
+        </datalist>
+    </div>
+    <div id="j"><p>Enrollment Effective Form</p>
+        <input type="date"id="date"name="date"required>
+    </div>
+
+    <div id="k"><b>Entrepreneur Details(As on 01-Apr-2019)</b>
+       
+            <div style="display: flex; flex-wrap: wrap;"id="l">
+                <p style="flex: 1 1 30%;">Name: Mr.Career Point Limited</p>
+                <p style="flex: 1 1 30%;">Constitution Type: Individual</p>
+                <p style="flex: 1 1 30%;">Date of Birth:</p>
+                <p style="flex: 1 1 30%;">Father/Husband Name:</p>
+                <p style="flex: 1 1 30%;">Registered On:</p>
+                <p style="flex: 1 1 30%;">Nationality: Indian</p>
+                <p style="flex: 1 1 30%;">Email Id:</p>
+                <p style="flex: 1 1 30%;">PAN [Permanent Account Number]</p>
+                <p style="flex: 1 1 30%;">Mobile Number:</p>
+            </div><i class="fa fa-rupee"></i>            <div>
+                <button>Edit</button>
+                <button id="n">Change</button>
+            </div>
+    <div id="m"><b>Enrollment Detail - Initial Allotment</b></div>
+    <div id="o">Reservation Category<span id="p">Allotment Date</span><span id="q">Rate of Allotment<span class="rupee-symbol"><b id="r">(₹)</b></span></span>
+           <select id="s" name="reservation-category">
+            <option value="general">-select-</option>
+          <option value="general">General (GEN)</option>
+          <option value="obc">Other Backward Class (OBC)</option>
+          <option value="sc">Scheduled Caste (SC)</option>
+          <option value="st">Scheduled Tribe (ST)</option>
+          <option value="ews">Economically Weaker Section (EWS)</option>
+          <option value="pwd">Persons with Disabilities (PWD)</option>
+        </select>
+            <input type="date"id="t"name="date"required>
+            <input type="number" id="rate" name="rate" min="0" step="0.01" placeholder="Enter rate">
+            <select id="unit" name="unit">
+              <option value="sqm">Square Meter (sqm)</option>
+              <option value="sqft">Square Foot (sqft)</option>
+              <option value="acre">Acre</option>
+              <option value="hectare">Hectare</option>
+            </select>
+            </div>
+            <div id="u">Rebate (in %)<span id="v">Possession Date [Schedule-Actual]*</span><span id="w">Production Period Years</span></div>
+            <input type="number" id="reb" name="rebate" min="0" placeholder="Enter rebate">
+            <input type="number" id="per" name="percentage" min="0" max="100" step="0.01" placeholder="%">
+            <input type="date"id="x"name="date"required>
+            <input type="date"id="y"name="date"required>
+            <input type="number"id="z"name="years"min="0"placeholder="00">
+            <div id="aa">Lease Deed Status<span id="bb">Lease Dead Execution Date</span><span id="cc">Registered Lease Deed with</span></div>
+            <select id="lease-status" name="lease-status">
+                <option value="executed">Executed</option>
+                <option value="pending">Pending</option>
+                <option value="in-progress">In Progress</option>
+                <option value="canceled">Canceled</option>
+                <option value="renewed">Renewed</option>
+                <option value="expired">Expired</option>
+              </select>
+              <input type="date"id="xx"name="date"required>
+              <select id="lease" name="lease-status">
+                <option value="registered">None</option>
+                <option value="registered">Registered</option>
+                <option value="under-process">Under Process</option>
+                <option value="executed">Executed</option>
+                <option value="pending-registration">Pending Registration</option>
+                <option value="disputed">Disputed</option>
+                <option value="canceled">Canceled</option>
+                <option value="expired">Expired</option>
+                <option value="amended">Amended</option>
+              </select>
+            </div>
+            <div id="naaz"><b>Entrepreneur Details(As on 01-Apr-2019)</b>
+            </div>
+            <div id="bano">Actual Area<span id="dd">Premium of Land</span><b id="r">(₹)</b><span id="ee">Prime Contact</span></div>
+            <input type="number" id="actual-area" name="actual-area" placeholder="Enter area" min="0" step="0.01">
+
+            <input type="number" id="area-sqm" name="area-sqm" placeholder="Enter sqm" min="0" step="0.01">
+            <input type="number"name="premium"min="0"step="0.01"id="man">
+            <input type ="text"name="primecontact"id="tan"placeholder="-select-">
+        </div>
+        <div id="aj">Construction Status<span id="ajj">Production Date[Schedule-Actual]*</span><span id="ajju">Water Harvesting Application</span>
+            <select name="constructionStatus"id="cons">
+                <option value="none">None</option>
+                <option value="ongoing">ongoing</option>
+                <option value="completed">Completed</option>
+                <option value="under_review">Under Review</option>
+                <option value="delayed">Delayed</option>
+                <option value="paused">Paused</option>
+                <option value="not_started">Not Started</option>
+            </select>
+            <input type="date"name="date"id="lo"required>
+            <input type="date"name="date"id="lp"required>
+            <select name="waterHarvesting"id="har">
+                <option value="no">No</option>
+                <option  value="yes">Yes</option>
+            </select>
+        </div>
+
+            
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="pinku.js"></script>
+</body>
+</html>
